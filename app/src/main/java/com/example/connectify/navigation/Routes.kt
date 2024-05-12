@@ -1,0 +1,15 @@
+package com.example.connectify.navigation
+
+const val HOME_URL = "home"
+const val SIGNUP_URL = "signup"
+const val LOGIN_URL = "login"
+const val ADD_PRODUCTS_URL = "add_products"
+const val VIEW_PRODUCTS_URL = "view_products"
+const val CATEGORIES_URL = "explore"
+const val LANDING_URL = "landing"
+const val SECOND_LANDING_URL = "second"
+const val ENGINEERING_URL = "engineering"
+const val FINANCE_URL = "finance"
+const val RESEARCH_URL = "research"
+const val CREATIVE_URL = "creative"
+const val SEARCHES_URL = "search"
