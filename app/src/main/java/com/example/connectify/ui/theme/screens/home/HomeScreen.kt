@@ -803,7 +803,7 @@ fun HomeScreen(navController:NavHostController){
 
 
                             Button(onClick = {
-                                navController.navigate(LOGIN_URL) }, modifier = Modifier
+                                navController.navigate(VIEW_PRODUCTS_URL) }, modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(start = 30.dp, end = 30.dp)) {
                                 Text(text = "View more jobs available")

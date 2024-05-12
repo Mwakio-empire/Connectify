@@ -2,6 +2,7 @@ package com.example.connectify.ui.theme.screens.finance
 
 import android.content.Intent
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -301,7 +302,8 @@ fun FinanceScreen(navController: NavHostController)
 
 
                 Text(
-                    modifier = Modifier.padding(start = 0.2.dp),
+                    modifier = Modifier.padding(start = 0.2.dp).clickable { navController.navigate(
+                        VIEW_PRODUCTS_URL) },
                     text = "See more jobs available:",
                     fontSize = 30.sp,
 

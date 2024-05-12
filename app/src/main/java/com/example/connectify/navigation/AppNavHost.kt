@@ -6,10 +6,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.Connectify.ui.theme.screens.explore.CategoriesScreen
 
 import com.example.connectify.ui.theme.screens.SoftEngineering.EngineeringScreen
 import com.example.connectify.ui.theme.screens.creative.CreativeScreen
+import com.example.connectify.ui.theme.screens.explore.CategoriesScreen
 import com.example.connectify.ui.theme.screens.finance.FinanceScreen
 import com.example.connectify.ui.theme.screens.home.HomeScreen
 import com.example.connectify.ui.theme.screens.imm.SecondLanding

@@ -1,7 +1,8 @@
-package com.example.Connectify.ui.theme.screens.explore
+package com.example.connectify.ui.theme.screens.explore
 
 import android.content.Intent
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -15,6 +16,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.ArrowForward
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Share
 import androidx.compose.material3.Card
@@ -45,6 +47,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.connectify.R
 import com.example.connectify.navigation.HOME_URL
+import com.example.connectify.navigation.VIEW_PRODUCTS_URL
 import com.example.connectify.ui.theme.WazitoECommerceTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -498,6 +501,38 @@ fun CategoriesScreen(navController: NavHostController)
 
                 }
 
+            }
+            Spacer(modifier = Modifier.height(20.dp))
+
+            Row {
+
+
+                Text(
+                    modifier = Modifier.padding(start = 0.2.dp).clickable { navController.navigate(
+                        VIEW_PRODUCTS_URL
+                    ) },
+                    text = "See more jobs available:",
+                    fontSize = 30.sp,
+
+                    fontWeight = FontWeight.ExtraBold,
+                    fontFamily = FontFamily.Cursive,
+                    color = Color.Black,
+                    textDecoration = TextDecoration.Underline
+
+                )
+
+
+                IconButton(
+                    onClick = { navController.navigate(VIEW_PRODUCTS_URL) },
+                    modifier = Modifier.padding(top = 1.dp)
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.ArrowForward,
+                        contentDescription = "settings",
+                        tint = Color.Red
+                    )
+
+                }
             }
         }
 

@@ -72,7 +72,7 @@ fun AddProductsScreen(navController:NavHostController){
 
         //end of top app bar
         Text(
-            text = "Add Products",
+            text = "Looking to Hire a Team?",
             fontSize = 40.sp,
             fontWeight = FontWeight.Bold,
             fontFamily = FontFamily.Cursive

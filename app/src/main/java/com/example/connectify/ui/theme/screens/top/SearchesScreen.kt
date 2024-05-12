@@ -382,6 +382,35 @@ fun SearchesScreen(navController: NavHostController) {
                 }
             }
 
+            Row {
+
+
+                Text(
+                    modifier = Modifier.padding(start = 0.2.dp),
+                    text = "See more jobs available:",
+                    fontSize = 30.sp,
+
+                    fontWeight = FontWeight.ExtraBold,
+                    fontFamily = FontFamily.SansSerif,
+                    color = Color.Black,
+                    textDecoration = TextDecoration.Underline
+
+                )
+
+
+                IconButton(
+                    onClick = { navController.navigate(VIEW_PRODUCTS_URL) },
+                    modifier = Modifier.padding(top = 1.dp)
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.ArrowForward,
+                        contentDescription = "settings",
+                        tint = Color.Red
+                    )
+
+                }
+            }
+
         }
 
 
