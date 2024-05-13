@@ -850,7 +850,7 @@ val bottomNavItems = listOf(
         selectedIcon=Icons.Filled.Person,
         unselectedIcon=Icons.Outlined.Person,
         hasNews = false,
-        badges=5
+        badges=0
     ),
 
     BottomNavItem(
