@@ -139,9 +139,9 @@ fun ProductItem(name:String, quantity:String, price:String, id:String,
 
     Column(modifier = Modifier
         .fillMaxWidth()
-        .padding(start = 30.dp, end = 30.dp)) {
+        ) {
         Row {
-            Card() {
+            Card(modifier = Modifier.padding(start = 10.dp, end = 10.dp)) {
                 Row {
 
                     Image(

@@ -104,7 +104,7 @@ fun SearchesScreen(navController: NavHostController) {
 
 
             Row {
-                Card {
+                Card(modifier = Modifier.padding(start = 10.dp, end = 10.dp)) {
                     Row {
 
                         Image(
@@ -165,7 +165,7 @@ fun SearchesScreen(navController: NavHostController) {
             Spacer(modifier = Modifier.height(20.dp))
 
             Row {
-                Card {
+                Card(modifier = Modifier.padding(start = 10.dp, end = 10.dp)) {
                     Row {
 
                         Image(
@@ -228,7 +228,7 @@ fun SearchesScreen(navController: NavHostController) {
             Spacer(modifier = Modifier.height(20.dp))
 
             Row {
-                Card {
+                Card(modifier = Modifier.padding(start = 10.dp, end = 10.dp)) {
                     Row {
 
                         Image(
@@ -291,7 +291,7 @@ fun SearchesScreen(navController: NavHostController) {
             Spacer(modifier = Modifier.height(20.dp))
 
             Row {
-                Card {
+                Card (modifier = Modifier.padding(start = 10.dp, end = 10.dp)){
                     Row {
 
                         Image(
