@@ -30,5 +30,5 @@ Language: Kotlin
 Architecture: MVVM
 Database/Backend: Firebase
 UI: XML Layouts
-Dependency Injection: (Optional if used)
+
 Version Control: Git & GitHub
