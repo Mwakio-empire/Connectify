@@ -31,4 +31,4 @@ Architecture: MVVM
 Database/Backend: Firebase
 UI: XML Layouts
 
-Version Control: Git & GitHub
+Version Control: Git & GitHub.
